@@ -397,6 +397,8 @@ about section
 .nav-tabs > li > a:hover {
   background-color: transparent;
 }
+
+
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
@@ -737,5 +739,11 @@ media quires for mobile
   }
   #home h3 {
     font-size: 12px;
+  }
+}
+
+@media (min-width: 768px){
+  .navbar-nav>li {
+      float: right;
   }
 }
