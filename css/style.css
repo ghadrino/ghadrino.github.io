@@ -480,6 +480,7 @@ team section
 }
 #team img {
   margin: 0 auto;
+  min-height: 262.5px;
 }
 
 #team .social-icon li a {
